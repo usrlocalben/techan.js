@@ -1,30 +1,30 @@
-import { scale as _scale } from '../scale';
-import { accessors as _accessors } from '../accessor';
-import { plot as _plot } from './plot';
-import { util } from '../util';
-import { plotmixin as _plotmixin } from './plotmixin';
-import { candlestick as _candlestick} from './candlestick';
-import { axisannotation as _axisannotation } from './axisannotation';
-import { svg as _svg } from '../svg';
+import { scale as _scale } from '../scale/index.js';
+import { accessors as _accessors } from '../accessor/index.js';
+import { plot as _plot } from './plot.js';
+import { util } from '../util/index.js';
+import { plotmixin as _plotmixin } from './plotmixin.js';
+import { candlestick as _candlestick} from './candlestick.js';
+import { axisannotation as _axisannotation } from './axisannotation.js';
+import { svg as _svg } from '../svg/index.js';
 
-import { line } from './line';
+import { line } from './line.js';
 
-import  { adx } from './adx';
-import  { aroon } from './aroon';
-import  { atrtrailingstop } from './atrtrailingstop';
-import  { bollinger } from './bollinger';
-import  { crosshair } from './crosshair';
-import  { ichimoku } from './ichimoku';
-import  { macd } from './macd';
-import  { ohlc } from './ohlc';
-import  { rsi } from './rsi';
-import  { stochastic } from './stochastic';
-import  { supstance } from './supstance';
-import  { tick } from './tick';
-import  { tradearrow } from './tradearrow';
-import  { trendline } from './trendline';
-import  { williams } from './williams';
-import  { volume } from './volume';
+import  { adx } from './adx.js';
+import  { aroon } from './aroon.js';
+import  { atrtrailingstop } from './atrtrailingstop.js';
+import  { bollinger } from './bollinger.js';
+import  { crosshair } from './crosshair.js';
+import  { ichimoku } from './ichimoku.js';
+import  { macd } from './macd.js';
+import  { ohlc } from './ohlc.js';
+import  { rsi } from './rsi.js';
+import  { stochastic } from './stochastic.js';
+import  { supstance } from './supstance.js';
+import  { tick } from './tick.js';
+import  { tradearrow } from './tradearrow.js';
+import  { trendline } from './trendline.js';
+import  { williams } from './williams.js';
+import  { volume } from './volume.js';
 
 import * as d3 from 'd3';
 function d3_event() {

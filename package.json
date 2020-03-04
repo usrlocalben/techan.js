@@ -29,6 +29,10 @@
     "d3": "~4.2.6"
   },
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.6",
+    "@babel/plugin-transform-destructuring": "^7.8.3",
+    "@babel/plugin-transform-modules-systemjs": "^7.8.3",
     "bower": "~1.7.9",
     "grunt": "~1.0.1",
     "grunt-banner": "~0.6.0",
@@ -53,11 +57,19 @@
     "karma-jasmine": "~1.0.2",
     "karma-phantomjs-launcher": "~1.0.1",
     "load-grunt-tasks": "~3.5.2",
-    "phantomjs": "^2.1.7"
+    "phantomjs": "^2.1.7",
+    "rollup": "^1.32.0"
+  },
+  "babel": {
+    "plugins": [
+      "@babel/plugin-transform-destructuring",
+      "@babel/plugin-transform-modules-systemjs"
+    ]
   },
   "scripts": {
     "watch": "grunt serve",
     "start": "grunt serve",
-    "test": "grunt"
+    "test": "grunt",
+    "build:systemjs": "yarn run -s rollup -f esm -i src\\techan.js | yarn run -s babel -f techan.js -o dist\\techan.js"
   }
 }

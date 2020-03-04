@@ -1,7 +1,7 @@
-import { util as _util } from "../util";
-import { zoomable as _zoomable } from "./zoomable";
-import { accessors as _accessors } from "../accessor";
-import { financetime as _financetime } from "./financetime";
+import { util as _util } from "../util/index.js";
+import { zoomable as _zoomable } from "./zoomable.js";
+import { accessors as _accessors } from "../accessor/index.js";
+import { financetime as _financetime } from "./financetime.js";
 
 export const scale = function(d3) {
   var zoomable = _zoomable(),

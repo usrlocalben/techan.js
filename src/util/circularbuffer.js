@@ -3,7 +3,7 @@
 /**
  * http://www.embedded.com/electronics-blogs/embedded-round-table/4419407/The-ring-buffer
  */
-module.exports = function CircularBuffer(size) {
+const CircularBuffer = function CircularBuffer(size) {
   var samples = [],
       currentIndex = size-1;
 
@@ -39,3 +39,5 @@ module.exports = function CircularBuffer(size) {
 
   return CircularBuffer;
 };
+
+export default CircularBuffer;

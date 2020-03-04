@@ -1,22 +1,22 @@
 
 
-import  { atrtrailingstop } from './atrtrailingstop';
-import  { crosshair } from './crosshair';
-import  { ichimoku } from './ichimoku';
-import  { macd } from './macd';
-import  { ohlc } from './ohlc';
-import  { rsi } from './rsi';
-import  { trendline } from './trendline';
-import  { value } from './value';
-import  { volume } from './volume';
-import  { tick } from './tick';
-import  { trade } from './trade';
-import  { adx } from './adx';
-import  { aroon } from './aroon';
-import  { stochastic } from './stochastic';
-import  { supstance } from './supstance';
-import  { williams } from './williams';
-import  { bollinger } from './bollinger';
+import  { atrtrailingstop } from './atrtrailingstop.js';
+import  { crosshair } from './crosshair.js';
+import  { ichimoku } from './ichimoku.js';
+import  { macd } from './macd.js';
+import  { ohlc } from './ohlc.js';
+import  { rsi } from './rsi.js';
+import  { trendline } from './trendline.js';
+import  { value } from './value.js';
+import  { volume } from './volume.js';
+import  { tick } from './tick.js';
+import  { trade } from './trade.js';
+import  { adx } from './adx.js';
+import  { aroon } from './aroon.js';
+import  { stochastic } from './stochastic.js';
+import  { supstance } from './supstance.js';
+import  { williams } from './williams.js';
+import  { bollinger } from './bollinger.js';
 
 
 // Provide IDs for all accessors. Default to date, but at least provide an option

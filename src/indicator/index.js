@@ -1,24 +1,24 @@
 
-import  { indicatormixin } from './indicatormixin';
-import  { accessors } from '../accessor';
-import  { ema_init } from './ema';
-import  { sma_init } from './sma';
-import  { atr_init } from './atr';
-import  { util } from '../util';
-import  { sroc_init } from './sroc';
-import  { vwap } from './vwap';
+import  { indicatormixin } from './indicatormixin.js';
+import  { accessors } from '../accessor/index.js';
+import  { ema_init } from './ema.js';
+import  { sma_init } from './sma.js';
+import  { atr_init } from './atr.js';
+import  { util } from '../util/index.js';
+import  { sroc_init } from './sroc.js';
+import  { vwap } from './vwap.js';
 
 
-import  { atrtrailingstop } from './atrtrailingstop';
-import  { heikinashi } from './heikinashi';
-import  { ichimoku } from './ichimoku';
-import  { macd } from './macd';
-import  { rsi } from './rsi';
-import  { adx } from './adx';
-import  { aroon } from './aroon';
-import  { stochastic } from './stochastic';
-import  { williams } from './williams';
-import  { bollinger } from './bollinger';
+import  { atrtrailingstop } from './atrtrailingstop.js';
+import  { heikinashi } from './heikinashi.js';
+import  { ichimoku } from './ichimoku.js';
+import  { macd } from './macd.js';
+import  { rsi } from './rsi.js';
+import  { adx } from './adx.js';
+import  { aroon } from './aroon.js';
+import  { stochastic } from './stochastic.js';
+import  { williams } from './williams.js';
+import  { bollinger } from './bollinger.js';
 
 export const indicators = function(d3) {
   var indicatorMixin = indicatormixin(),

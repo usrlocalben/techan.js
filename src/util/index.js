@@ -1,4 +1,4 @@
-import circularbuffer from './circularbuffer';
+import circularbuffer from './circularbuffer.js';
 
 export const util = function() {
   return {
